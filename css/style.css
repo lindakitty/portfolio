@@ -1,0 +1,183 @@
+/*table of contents
+CSS Reset
+Universal
+Typography
+Header
+Banner
+About me
+Skills
+Map
+Experienced
+Contact
+*/
+
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding:0:
+  box-sizing:border-box;
+  border: 1px solid green;
+}
+
+/*universal*/
+body {
+  font-size: 1rem;
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  font-size: 2rem;
+  color: purple;
+}
+
+h2 {
+  color: purple;
+}
+
+p {
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+}
+section, footer {
+  padding: 10vh 10vw;
+}
+
+.no-padding{
+  padding: 0
+}
+
+.center {
+text-align: center;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+
+}
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+/*typography*/
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lora', 'sans-serif', sans-serif;
+  text-align: centre;
+}
+
+/*end universal*/
+
+/*header*/
+header nav {
+  text-align: left;
+}
+
+.top-banner {
+  background-image: url("../images/giphy.gif");
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #pink;
+
+}
+
+.top-banner h2 {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.top-banner h1 {
+  margin-bottom: 20px;
+}
+
+header .logo {
+  display: inline-block;
+    width: 100px;
+    float: right;
+}
+
+/*about me*/
+.about-me {
+  height: 80vh;
+  background-color: lightgreen;
+  text-align: center;
+}
+
+.about-content {
+  margin-top: 25vh;
+  padding: 5%;
+  background-color: white;
+}
+
+/*skills*/
+.skills-section h2 {
+  margin-bottom: 10px;
+}
+
+.skills-section {
+  text-align: center;
+}
+
+.skill-box i {
+  font-size: 2.5rem;
+  margin: 5px;
+}
+
+/*map*/
+
+
+/*experienced*/
+.experience-icon {
+  width: 8%;
+}
+
+.experience-section {}
+
+.experience-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.experience-box {
+  margin-bottom: 10px;
+}
+
+.experience-icon {
+  width: 8%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.experience-summary {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.experience-detail {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*Footer*/
+footer {
+  padding:5%;
+  height:30vh;
+  background-color: black;
+  text-align: center;
+  color:white;
+
+}
+footer a,footer h2{
+  color:white;
+}
+
+footer h2 {
+  margin:10px 0px;
+}
+
+footer nav {
+  margin: 10px 0px;
+}
